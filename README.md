@@ -12,9 +12,6 @@ and Random Forest.
 Source: Boston Airbnb Open Data (Kaggle)
 Target variable: log_price (log-transformed nightly price)
 
-If the dataset is not included in the repository, download listings.csv from Kaggle
-and place it in the data/ folder.
-
 ---
 
 ## Methods
@@ -45,8 +42,6 @@ Metrics used:
 - RMSE (Root Mean Squared Error)
 - R² (Coefficient of determination)
 
-Add your values here:
-
 Model Comparison Table:
 Model | MAE | RMSE | R²
 ------|-----|------|---
@@ -59,7 +54,6 @@ Random Forest | 0.237 | 0.342 | 0.712
 ## Feature Importance
 
 Random Forest feature importances indicate that the strongest predictors of price are:
-- Neighbourhood dummy variables (location)
 - Room type
 - Property size (accommodates, bedrooms, bathrooms)
 - Latitude and longitude
