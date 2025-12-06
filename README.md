@@ -10,6 +10,7 @@ and Random Forest.
 ## Dataset
 
 Source: Boston Airbnb Open Data (Kaggle)
+
 Target variable: log_price (log-transformed nightly price)
 
 ---
