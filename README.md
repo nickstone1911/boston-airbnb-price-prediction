@@ -7,22 +7,6 @@ and Random Forest.
 
 ---
 
-## Project Structure
-
-boston-airbnb-price-prediction/
-│
-├─ data/
-│   └─ listings.csv               # dataset (optional)
-│
-├─ notebooks/
-│   └─ airbnb_price_boston.ipynb  # main analysis notebook
-│
-├─ requirements.txt
-├─ README.md
-└─ .gitignore
-
----
-
 ## Dataset
 
 Source: Boston Airbnb Open Data (Kaggle)
@@ -66,9 +50,9 @@ Add your values here:
 Model Comparison Table:
 Model | MAE | RMSE | R²
 ------|-----|------|---
-Baseline | ... | ... | ...
-Linear Regression | ... | ... | ...
-Random Forest | ... | ... | ...
+Baseline | 0.518 | 0.636 | 0.000
+Linear Regression | 0.270 | 0.378 | 0.648
+Random Forest | 0.237 | 0.342 | 0.712
 
 ---
 
